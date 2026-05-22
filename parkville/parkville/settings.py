@@ -126,5 +126,6 @@ STATIC_URL = 'static/'
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 LOGIN_URL = '/users/login/'
-LOGIN_REDIRECT_URL = 'vehicle_list/'
+LOGIN_REDIRECT_URL = 'vehicle_list'
+LOGOUT_REDIRECT_URL = 'login'
 

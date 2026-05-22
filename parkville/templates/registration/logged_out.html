@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block navs %}{% endblock%}
+
+{% block title %}
+    
+{% endblock %}
+
+{% block content %}
+     <div>
+        <div>
+            <h1>You have been logged out</h1>
+            <a href="{% url 'login' %}" class="btn btn-warning mt-4">Login</a>
+        </div>
+     </div>
+{% endblock %}
